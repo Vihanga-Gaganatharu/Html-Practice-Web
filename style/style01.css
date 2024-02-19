@@ -173,7 +173,7 @@ img {
 
 .menu {
     margin: 70px;
-    margin-top: 0;
+    margin-top: 10;
     padding-top: 120px;
 }
 
@@ -207,11 +207,11 @@ td:hover {
 }
 
 
-.abouttext h1 {
+.abouttext h2 {
     margin: 0px;
-    font-size: 100px;
+    font-size: 75px;
     position: relative;
-    left: 0vh;
+    left: 100vh;
     top: 0vh;
 }
 
@@ -225,41 +225,39 @@ td:hover {
     line-height: 35px;
     padding-top: 0;
     position: relative;
-    left: 2px;
+    left: 700px;
     padding-bottom: 0;
     text-align: left;
     position: relative;
-    left: 0;
+    left: 100;
     top: 0;
 }
 
 .abouttext img {
     position: relative;
     top:0;
-    left: 100;
+    left: 180px;
     filter: drop-shadow(0px 0px 43px #fc6a6a44);
+    width: 700px;
+    height: 100%;
 }
-
-.abouttext button i {
-    color: #ffffff;
-    margin-right: 10px;
-}
-
-.abouttext button {
-    background: #FB1351;
+.btn02 {
+    background: #D5FC17;
     border: none;
     position: relative;
-    top: 0;
-    left: 0;
-    color: #ffffff;
+    top: 80px;
+    left: 700px;
+    color: #ff0000;
     font-size: 20px;
     padding: 20px;
     padding-left: 50px;
     padding-right: 50px;
     border-radius: 20px;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
 }
 
-.content img {
-    width: 848px;
-    height: 100%;
+.btn02:hover {
+    transform: scale(25.05);
+    box-shadow: 0 0 25px var(--main-color);
 }
