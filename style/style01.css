@@ -34,25 +34,31 @@
       width: 100px;
       height: 10px;
       border-radius: 5px;
-  } */
+  } 
 
   .logo:hover {
       transform: scale(1.1);
   }
-        .navbar a {
-            font-size: 15px;
-            color: var(--text-color);
-            margin-left: 2.5rem;
-            font-weight: 550;
-            transition: 0.3s ease-in-out;
-            border-bottom: 3px solid transparent;
-        }
+    .navbar a {
+      font-size: 23px;
+      color: var(--text-color);
+      margin-left: 6rem;
+      font-weight: 550;
+      transition: 0.3s ease-in-out;
+      border-bottom: 3px solid transparent;
+      position: relative;
+      top: 0px;
+      left: 780px;
+      text-decoration: none;
+
+  }
     
-        .navbar a:hover,
-        .navbar a.active {
-            color: var(--main-color);
+    .navbar a:hover,
+    .navbar a.active {
+        color: var(--main-color);
             border-bottom: 3px solid var(--main-color);
-        }
+        text-decoration: none;
+    }
 /* .mainabout  {
 
 
