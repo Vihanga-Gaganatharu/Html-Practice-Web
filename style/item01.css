@@ -1,0 +1,17 @@
+* {
+    font-family: "Catamaran", sans-serif;
+}
+
+:root {
+    --bg-color: #ffffff;
+    --second-bg-color: #EEEEEE;
+    --text-color: #000000;
+    --main-color: #eeff00;
+    --container-color: #FFFFFF;
+    --containerText-color: #212121;
+}
+
+body {
+    background: var(--bg-color);
+    color: var(--text-color);
+}
