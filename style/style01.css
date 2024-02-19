@@ -6,7 +6,7 @@
      --second-bg-color: #EEEEEE;
      --text-color: #000000;
      --main-color: #eeff00;
-     --container-color: #FFFFFF;
+     --container-color: #ff0000;
      --containerText-color: #212121;
  }
  body {
@@ -50,6 +50,10 @@
       top: 0px;
       left: 780px;
       text-decoration: none;
+
+  }
+  .text-animation{
+    color: var(--container-color);
 
   }
     
@@ -109,9 +113,29 @@
     transition: 0.4s ease-in-out;
     border-radius: 30%;
 }
+.btn {
+    background: #D5FC17;
+    border: none;
+    position: relative;
+    top: 30px;
+    left: 0;
+    color: #ff0000;
+    font-size: 20px;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+.btn:hover{
+    transform: scale(25.05);
+    box-shadow: 0 0 25px var(--main-color);
 
+}
 .about-img img:hover {
    filter: drop-shadow(0px 0px 43px var(--main-color));
+   
 }
 
 .heading {
@@ -180,4 +204,62 @@ td:hover {
     /* Increase the size by 10% */
     transition: transform 0.3s ease;
     /* Smooth transition */
+}
+
+
+.abouttext h1 {
+    margin: 0px;
+    font-size: 100px;
+    position: relative;
+    left: 0vh;
+    top: 0vh;
+}
+
+.abouttext p {
+    font-size: 20px;
+    padding: 0px;
+    margin: 0px;
+    padding-top: 10px;
+    color: #7A7A7A;
+    letter-spacing: 2px;
+    line-height: 35px;
+    padding-top: 0;
+    position: relative;
+    left: 2px;
+    padding-bottom: 0;
+    text-align: left;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+.abouttext img {
+    position: relative;
+    top:0;
+    left: 100;
+    filter: drop-shadow(0px 0px 43px #fc6a6a44);
+}
+
+.abouttext button i {
+    color: #ffffff;
+    margin-right: 10px;
+}
+
+.abouttext button {
+    background: #FB1351;
+    border: none;
+    position: relative;
+    top: 0;
+    left: 0;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 20px;
+}
+
+.content img {
+    width: 848px;
+    height: 100%;
 }
