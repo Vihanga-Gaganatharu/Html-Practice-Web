@@ -1,5 +1,8 @@
 * {
     font-family: "Catamaran", sans-serif;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
 }
  :root {
      --bg-color: #ffffff;
@@ -12,6 +15,7 @@
  body {
       background: var(--bg-color);
       color: var(--text-color);
+      overflow-x: hidden;
 }
 .header {
     font-size: 10;
@@ -24,7 +28,7 @@
     backdrop-filter: blur(10px);
     display: flex;
     justify-content: between;
-    align-items: center;
+    align-items: left;
     z-index: 100;
 }
   .logo {
@@ -67,11 +71,28 @@
 
 
 } */
-.home-img {
+
+/* page head  */
+
+.textsince{
+    margin: -100px;
+    padding: 100px;
+    margin-left: -300px;
+
+
+}
+
+.heading {
+    text-align: left;
+    font-size: 4rem;
+    margin-left: -200px;
+}
+
+.head-img {
     border-radius: 50%;
 }
 
-.home-img img {
+.head-img img {
     position: relative;
     top: 1rem;
     width: 130px;
@@ -84,8 +105,7 @@
     margin-left: 0px;
 }
 
-/* About Section */
-.about {
+.home {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -95,7 +115,7 @@
 
 }
 
-.about h2 span {
+.home h2 span {
     color: var(--main-color);
     text-shadow: 0 0 50px var(--main-color);
 }
@@ -103,11 +123,11 @@
     filter: drop-shadow(0px 0px 20px var(--main-color));
 } */
 
-.about-img {
+.home-img {
     border-radius: 50%;
 }
 
-.about-img img {
+.home-img img {
     position: relative;
     width: 700px;
     height: 100%;
@@ -120,10 +140,11 @@
     background: #D5FC17;
     border: none;
     position: relative;
-    top: 30px;
-    left: 0;
+    top: 90px;
+    left: -200px;
     color: #ff0000;
     font-size: 20px;
+    font-weight: 100px;
     padding: 20px;
     padding-left: 50px;
     padding-right: 50px;
@@ -135,16 +156,11 @@
     transform: scale(25.05);
     filter: drop-shadow(0px 0px 30px var(--container-color));
 }
-.about-img img:hover {
+.home-img img:hover {
    filter: drop-shadow(0px 0px 90px var(--main-color));
    
 }
 
-.heading {
-    text-align: center;
-    font-size: 4rem;
-
-}
 
 .about-content h2 {
     text-align: left;
@@ -175,11 +191,16 @@ img {
     width: 250px;
 }
 
+
+/* Table Section */
+
 .menu {
     margin: 70px;
     margin-top: 10;
     padding-top: 120px;
 }
+
+
 
 td {
     text-align: center;
@@ -211,40 +232,37 @@ td:hover {
 }
 
 
-.abouttext h2 {
+.about h2 {
     margin: 0px;
     font-size: 75px;
     position: relative;
-    left: 73vh;
-    top: 0vh;
+    left: 800px;
+    top: -900px;
 }
 
-.abouttext p {
+.about p {
     font-size: 22px;
     padding: 0px;
     margin: 0px;
-    padding-top: 10px;
     color: #000000;
     letter-spacing: 2px;
     line-height: 35px;
     padding-top: 0;
     position: relative;
-    left: 700px;
+    left: 800px;
     padding-bottom: 0;
     text-align: left;
-    position: relative;
-    left: 100;
-    top: 0;
+    top: -700px;
     
 }
-.abouttext p:hover{
+.about p:hover{
     filter: drop-shadow(0px 0px 1px var(--containerText-color));
 }
 
-.abouttext img {
+.about img {
     position: relative;
-    top:0;
-    left: 120px;
+    top: -100px;
+    left: 70px;
     filter: drop-shadow(0px 0px 43px #fc6a6a44);
     width: 600px;
     height: 100%;
@@ -253,8 +271,8 @@ td:hover {
     background: #D5FC17;
     border: none;
     position: relative;
-    top: 80px;
-    left: 700px;
+    top: -600px;
+    left: 800px;
     color: #ff0000;
     font-size: 20px;
     padding: 20px;
