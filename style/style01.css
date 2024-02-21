@@ -24,7 +24,7 @@
     left: 0;
     width: 100%;
     padding: 1px 9%;
-    background: rgba(0, 0, 0, 0);
+    background: #88858500;
     backdrop-filter: blur(10px);
     display: flex;
     justify-content: between;
@@ -54,6 +54,7 @@
       top: 50px;
       left: 780px;
       text-decoration: none;
+    
 
   }
   .text-animation{
@@ -98,7 +99,7 @@
 
 .head-img img {
     position: relative;
-    top: 1rem;
+    top: 1px;
     width: 130px;
     height: 100%;
     /* border-radius: 20%; */
@@ -107,9 +108,10 @@
     transition: 0.4s ease-in-out; 
      /* padding-left: 50px; */
     margin-left: -100px;
+    
 }
 .head-img img:hover {
-    transform: scale(1.5);
+    transform: scale(0.5);
     transition: 0.3s ease-in-out;
 }
 
@@ -163,7 +165,7 @@
 }
 .btn:hover{
     transform: scale(25.05);
-    filter: drop-shadow(0px 0px 30px var(--container-color));
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.438), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 .home-img img:hover {
     filter: drop-shadow(0px 0px 90px var(--main-color));
@@ -178,9 +180,9 @@
     text-align: left;
     line-height: 1.5;
 }
-/* .about-content h2:hover{
-    filter: drop-shadow(0px 0px 1px var(--containerText-color));
-} */
+ .about-content h2:hover{
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.438), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+} 
 
 .about-content h3 {
     font-size: 20px;
@@ -251,6 +253,9 @@ td:hover {
     left: 800px;
     top: -900px;
 }
+.about h2:hover{
+ filter: drop-shadow(0px 0px 3px var(--containerText-color));  
+}
 
 .about p {
     font-size: 22px;
@@ -297,5 +302,5 @@ td:hover {
 
 .btn02:hover {
     transform: scale(25.05);
-    box-shadow: 0 0 70px var(--container-color);
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.438), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
