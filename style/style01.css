@@ -8,8 +8,8 @@
      --bg-color: #ffffff;
      --second-bg-color: #EEEEEE;
      --text-color: #000000;
-     --main-color: #eeff00;
-     --container-color: #ff0000;
+     --main-color: #00FFFF;
+     --container-color: #001aff;
      --containerText-color: #212121;
  }
  body {
@@ -51,7 +51,7 @@
       transition: 0.3s ease-in-out;
       border-bottom: 3px solid transparent;
       position: relative;
-      top: 0px;
+      top: 50px;
       left: 780px;
       text-decoration: none;
 
@@ -61,11 +61,15 @@
 
   }
     
-    .navbar a:hover,
+    .navbar a:hover{
+        transform: scale(1.5);
+        transition: 0.3s ease-in-out;
+    }
     .navbar a.active {
         color: var(--main-color);
-            border-bottom: 3px solid var(--main-color);
+        border-bottom: 3px solid var(--main-color);
         text-decoration: none;
+        top: 50px;
     }
 /* .mainabout  {
 
@@ -102,7 +106,11 @@
     cursor: pointer;
     transition: 0.4s ease-in-out; 
      /* padding-left: 50px; */
-    margin-left: 0px;
+    margin-left: -100px;
+}
+.head-img img:hover {
+    transform: scale(1.5);
+    transition: 0.3s ease-in-out;
 }
 
 .home {
@@ -135,9 +143,10 @@
     cursor: pointer;
     transition: 0.4s ease-in-out;
     border-radius: 30%;
+    left: 200px;
 }
 .btn {
-    background: #D5FC17;
+    background: #00FFFF;
     border: none;
     position: relative;
     top: 90px;
@@ -157,7 +166,10 @@
     filter: drop-shadow(0px 0px 30px var(--container-color));
 }
 .home-img img:hover {
-   filter: drop-shadow(0px 0px 90px var(--main-color));
+    filter: drop-shadow(0px 0px 90px var(--main-color));
+    transform: scale(1.2);
+    transition: 0.3s ease-in-out;
+
    
 }
 
@@ -268,7 +280,7 @@ td:hover {
     height: 100%;
 }
 .btn02 {
-    background: #D5FC17;
+    background: #00FFFF;
     border: none;
     position: relative;
     top: -600px;
