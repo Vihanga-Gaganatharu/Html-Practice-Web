@@ -159,9 +159,14 @@
     padding: 20px;
     padding-left: 50px;
     padding-right: 50px;
-    border-radius: 20px;
+    border-radius: 200px;
     text-decoration: none;
     transition: 0.3s ease-in-out;
+    text-decoration: none;
+    text-shadow: #000;
+    border-color: #ff0000;
+    border-width: 2px;
+    
 }
 .btn:hover{
     transform: scale(25.05);
